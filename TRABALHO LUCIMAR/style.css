@@ -1,0 +1,130 @@
+@charset "UTF-8"; /*Compatibilidade de Acentuação .css */
+  
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*Menu Nav Bar*/
+header {
+    background-color: #333333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+
+}
+
+a {
+  color: #fff;
+  text-decoration:  none;
+  font-size: 19px
+}
+
+a:hover {
+opacity: 75%;
+text-decoration: underline;
+
+}
+
+
+nav {
+display: flex;
+justify-content: space-around;
+align-items: center;
+height: 8vh;
+}
+
+.nav-list {
+list-style: none;
+display: flex;
+}
+
+.nav-list li {
+margin-left: 32px;
+}
+
+
+/*Serviços*/
+.esquerda {
+  display: flex;
+  justify-content: center; /*Centralizar no meio do site */
+}
+
+.esquerda h2 {
+  color: #020202;
+  margin-top: 30px;
+  position: relative;
+  font-size: 25px;
+}
+
+.colunas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 105px; /*Espaçamento entre colunas*/
+  margin-top:35px;
+}
+
+/*Início*/
+.bem-vindo {
+  align-items: center;
+  text-align: center;
+  margin-top: 35px;
+}
+
+.bem-vindo p {
+  font-size: 20px;
+}
+
+.img-inicial {
+  align-items: center;
+  justify-content: center;
+  height: 540; width: 980px;
+  margin-top: 35px;
+}
+
+.Titulo {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 50px;
+
+}
+
+.local {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 125%;
+    background-color: #333333;
+    color: #fff;
+}
+
+.contatos {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.insta {
+  color:black;
+  font-size: 20px;
+}        
+
+.clientes {
+  align-items: center;
+  font-size: 30px;
+  text-align: center;
+  margin: 50px;
+  padding: 35px;
+  background-color: #e7e7e7;
+  
+}
+
+.icon {
+  margin: 25px;
+}
